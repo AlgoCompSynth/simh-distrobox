@@ -17,6 +17,7 @@ RUN apt-get update \
   plocate \
   sudo \
   time \
+  tree \
   unzip \
   vim \
   wget \

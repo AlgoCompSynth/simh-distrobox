@@ -3,6 +3,6 @@
 set -e
 
 echo "Building open-simh"
-docker build -t open-simh .
+podman build -t open-simh .
 
 echo "Finished"
