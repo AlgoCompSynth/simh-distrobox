@@ -33,3 +33,30 @@ RUN apt-file update \
   >> $LOGFILE 2>&1 \
   &&  updatedb \
   >> $LOGFILE 2>&1
+
+
+
+
+  apt-file \
+  bash-completion \
+  build-essential \
+  cmake \
+  curl \
+  file \
+  lsb-release \
+  lynx \
+  man-db \
+  minicom \
+  ninja-build \
+  pkg-config \
+  plocate \
+  screen \
+  speedtest-cli \
+  tmux \
+  tree \
+  unzip \
+  usbutils \
+  wget \
+  >> $LOGFILE 2>&1
+
+echo "Finished"
